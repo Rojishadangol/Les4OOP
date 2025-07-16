@@ -22,9 +22,9 @@ class Bicycle extends Vehicle {
 
 public class Rental {
     public static void main(String[] args) {
-        Vehicle v1 = new Car();
-        Vehicle v2 = new Motorcycle();
-        Vehicle v3 = new Bicycle();
+        Vehicle v1 = new Car(3);
+        Vehicle v2 = new Motorcycle(4);
+        Vehicle v3 = new Bicycle(3);
 
         System.out.println("Car: $" + v1.calculateRental(3));
         System.out.println("Motorcycle: $" + v2.calculateRental(3));
